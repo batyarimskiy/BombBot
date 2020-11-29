@@ -9,6 +9,12 @@ YOURTOKEN = input('Токен вашего бота: ')
 bot = telebot.TeleBot(YOURTOKEN)
 ID = input('Ваш id: ')
 aid = (ID)
+
+if ID or bot:
+   print('вы что-то не ввели...')
+else:
+    print('Вы ничего не ввели!')
+
 print()
 print('Бот успешно запущен!')
 
